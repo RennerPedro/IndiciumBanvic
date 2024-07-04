@@ -6,7 +6,7 @@ import locale
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 # Leitura dos arquivos CSV
-transacoes = pd.read_csv('transacoes.csv', encoding='utf-8')
+transacoes = pd.read_csv('Planilhas/transacoes.csv', encoding='utf-8')
 
 # Converter a coluna 'data_transacao' para o formato datetime, tratando diferentes formatos
 transacoes['data_transacao'] = pd.to_datetime(transacoes['data_transacao'], errors='coerce')

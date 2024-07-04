@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Leitura do arquivo CSV para um DataFrame do Pandas
-df = pd.read_csv('dim_dates.csv')
+df = pd.read_csv('Planilhas/dim_dates.csv')
 
 # Ajuste dos tipos de dados, se necessário
 df['Data'] = pd.to_datetime(df['Data'])

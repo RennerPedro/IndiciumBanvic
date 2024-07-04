@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Carregar os dados das tabelas a partir dos arquivos CSV necessários
-agencias = pd.read_csv('agencias.csv')
-contas = pd.read_csv('contas.csv')
-transacoes = pd.read_csv('transacoes.csv')
+agencias = pd.read_csv('Planilhas/agencias.csv')
+contas = pd.read_csv('Planilhas/contas.csv')
+transacoes = pd.read_csv('Planilhas/transacoes.csv')
 
 # Filtrar as agências digitais e físicas
 digital_agencias = agencias[agencias['tipo_agencia'] == 'Digital']['cod_agencia']

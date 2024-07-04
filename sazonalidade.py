@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar os dados das transações, especificando o tratamento de datas e ignorando o fuso horário
-transacoes = pd.read_csv('transacoes.csv', parse_dates=['data_transacao'], date_parser=lambda x: pd.to_datetime(x.split()[0]))
+transacoes = pd.read_csv('Planilhas/transacoes.csv', parse_dates=['data_transacao'], date_parser=lambda x: pd.to_datetime(x.split()[0]))
 
 # Extrair o mês e o ano da data da transação
 transacoes['ano'] = transacoes['data_transacao'].dt.year

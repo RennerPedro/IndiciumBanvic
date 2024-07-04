@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Leitura dos dados dos clientes
-clientes_df = pd.read_csv('clientes.csv')  # Substitua pelo caminho correto do seu arquivo CSV
+clientes_df = pd.read_csv('Planilhas/clientes.csv')  # Substitua pelo caminho correto do seu arquivo CSV
 
 # Convertendo a coluna de data_nascimento para datetime
 clientes_df['data_nascimento'] = pd.to_datetime(clientes_df['data_nascimento'])

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar os dados dos arquivos CSV
-transacoes = pd.read_csv('transacoes.csv')
+transacoes = pd.read_csv('Planilhas/transacoes.csv')
 
 # Converter a coluna data_transacao para datetime, permitindo que pandas infira o formato
 transacoes['data_transacao'] = pd.to_datetime(transacoes['data_transacao'], errors='coerce')

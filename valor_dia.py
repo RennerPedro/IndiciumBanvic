@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar os dados dos arquivos CSV
-transacoes = pd.read_csv('transacoes_modificada.csv')
+transacoes = pd.read_csv('Planilhas/transacoes_modificada.csv')
 
 # Remover linhas com datas faltantes para evitar erros na conversão
 transacoes = transacoes.dropna(subset=['data_transacao'])
