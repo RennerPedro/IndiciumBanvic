@@ -1,0 +1,78 @@
+decada_nascimento,tipo_transacao,quantidade_transacoes
+1940,Compra Crédito,2907
+1940,Compra Débito,2081
+1940,DOC,64
+1940,Depósito em espécie,545
+1940,Estorno de Debito,39
+1940,Pagamento de boleto,52
+1940,Pix,2144
+1940,Pix Saque,15
+1940,Saque,359
+1940,TED,135
+1940,Transferência entre CC,93
+1950,Compra Crédito,4119
+1950,Compra Débito,2892
+1950,DOC,80
+1950,Depósito em espécie,810
+1950,Estorno de Debito,69
+1950,Pagamento de boleto,51
+1950,Pix,2795
+1950,Pix Saque,13
+1950,Saque,513
+1950,TED,192
+1950,Transferência entre CC,111
+1960,Compra Crédito,3862
+1960,Compra Débito,2630
+1960,DOC,76
+1960,Depósito em espécie,818
+1960,Estorno de Debito,73
+1960,Pagamento de boleto,72
+1960,Pix,2883
+1960,Pix Saque,17
+1960,Saque,426
+1960,TED,159
+1960,Transferência entre CC,138
+1970,Compra Crédito,3669
+1970,Compra Débito,2670
+1970,DOC,69
+1970,Depósito em espécie,686
+1970,Estorno de Debito,60
+1970,Pagamento de boleto,77
+1970,Pix,2619
+1970,Pix Saque,14
+1970,Saque,429
+1970,TED,168
+1970,Transferência entre CC,111
+1980,Compra Crédito,3743
+1980,Compra Débito,2549
+1980,DOC,76
+1980,Depósito em espécie,711
+1980,Estorno de Debito,56
+1980,Pagamento de boleto,63
+1980,Pix,2905
+1980,Pix Saque,12
+1980,Saque,416
+1980,TED,150
+1980,Transferência entre CC,98
+1990,Compra Crédito,3766
+1990,Compra Débito,2791
+1990,DOC,74
+1990,Depósito em espécie,726
+1990,Estorno de Debito,57
+1990,Pagamento de boleto,78
+1990,Pix,2838
+1990,Pix Saque,12
+1990,Saque,424
+1990,TED,198
+1990,Transferência entre CC,108
+2000,Compra Crédito,2874
+2000,Compra Débito,2031
+2000,DOC,54
+2000,Depósito em espécie,556
+2000,Estorno de Debito,49
+2000,Pagamento de boleto,57
+2000,Pix,2114
+2000,Pix Saque,7
+2000,Saque,307
+2000,TED,132
+2000,Transferência entre CC,84
